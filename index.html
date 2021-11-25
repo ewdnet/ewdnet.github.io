@@ -15,17 +15,18 @@
 
 <body class="uk-background-secondary uk-light">
   <header class="uk-container uk-light uk-position-fixed uk-position-top uk-position-z-index uk-margin-small-top" data-uk-scrollspy="cls: uk-animation-slide-top">
-    <dl class="uk-flex uk-flex-wrap uk-flex-between uk-flex-wrap-middle uk-flex-center">
-      <dt class="uk-flex uk-flex-middle">
+    <dl class="uk-flex uk-flex-between uk-flex-middle">
+      <dt class="uk-width-1-2 uk-width-1-4@s uk-flex uk-flex-middle">
         <img src="icons/ewd-logo@2x.svg" width="32" height="32" alt="Logo">
         <dfn class="uk-margin-small-left">ewdnet</dfn>
       </dt>
-      <dd class="uk-flex-first uk-width-1-2 uk-visible@s" lang="en">
+      <dd class="uk-flex-first uk-width-1-2 uk-text-large uk-text-truncate uk-visible@s" data-uk-tooltip="title: Full Stack Web & App Developer" lang="en">
         Full Stack Web & App Developer
       </dd>
       <dd class="">
         <a href="#contact" data-uk-toggle="target: #contact">
-          <span class="uk-margin-small-right uk-icon" data-uk-icon="mail"></span>Kontakt
+          <span class="uk-margin-small-right uk-icon" data-uk-icon="mail"></span>
+          <span>Kontakt</span>
         </a>
       </dd>
     </dl>
@@ -33,43 +34,49 @@
 
   <main>
     <article class="">
-      <header class="uk-position-fixed uk-position-top-left uk-position-z-index uk-width-1-2 uk-margin-large-top uk-padding-large">
-        <h1><span>Page-Title (Main)</span></h1>
-        <p class="">Page-Description (Main)</p>
+      <header class="uk-position-fixed uk-position-top uk-position-left uk-position-right uk-position-z-index uk-margin-large-top uk-padding-large uk-text-center">
+        <h1 class="uk-h4"><span>Web Dev Skills</span></h1>
+        <p class="">html, css, JavaScript, ...</p>
       </header>
       <div class="" data-uk-slideshow="animation: scale">
         <div class="uk-slideshow-items" data-uk-height-viewport>
           <section class="uk-child-width-1-2@s uk-margin-remove uk-padding-remove uk-background-cover" data-uk-grid data-src="https://picsum.photos/id/4/2600/1080/" data-uk-img>
             <div class="uk-flex-stretch uk-flex-last@s uk-padding-large uk-flex uk-flex-center uk-flex-middle" data-src="images/bg-trans-black.png" data-uk-img>
-              <div class="uk-padding-large">
-                <h2 class="uk-heading-line uk-transition-slide-top-small"><span>HTML</span></h2>
-                <p class=" uk-transition-slide-bottom-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="uk-padding-large uk-padding-remove-bottom">
+                <h2 class="uk-heading-line uk-transition-slide-top-medium"><span>HTML</span></h2>
+                <p class=" uk-transition-slide-bottom-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="uk-flex-stretch uk-flex-first@s uk-flex uk-flex-center uk-flex-middle uk-visible@s" data-src="images/bg-trans-blue.png" data-uk-img>
-              <div class="uk-width-medium uk-height-medium uk-border-circle uk-background-cover uk-transition-slide-bottom-small" data-src="https://picsum.photos/id/4/300/300/" data-uk-img><!-- &nbsp; --></div>
+              <div class="uk-width-small uk-width-medium@m uk-border-circle uk-overflow-hidden uk-transition-slide-bottom-medium uk-background-contain" data-src="https://picsum.photos/id/4/300/300/" data-uk-img>
+                <img data-src="images/img-trans-blue.png" alt="" data-uk-img>
+              </div>
             </div>
           </section>
           <section class="uk-child-width-1-2@s uk-margin-remove uk-padding-remove uk-background-cover" data-uk-grid data-src="https://picsum.photos/id/1/2600/1080/" data-uk-img>
             <div class="uk-flex-stretch uk-flex-last@s uk-padding-large uk-flex uk-flex-center uk-flex-middle" data-src="images/bg-trans-black.png" data-uk-img>
-              <div class="uk-padding-large">
-                <h2 class="uk-heading-line uk-transition-slide-top-small"><span>CSS</span></h2>
-                <p class=" uk-transition-slide-bottom-small">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="uk-padding-large uk-padding-remove-bottom">
+                <h2 class="uk-heading-line uk-transition-slide-top-medium"><span>CSS</span></h2>
+                <p class=" uk-transition-slide-bottom-medium">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
             <div class="uk-flex-stretch uk-flex-first@s uk-flex uk-flex-center uk-flex-middle uk-visible@s" data-src="images/bg-trans-green.png" data-uk-img>
-              <div class="uk-width-medium uk-height-medium uk-border-circle uk-background-cover uk-transition-slide-bottom-small" data-src="https://picsum.photos/id/1/300/300/" data-uk-img><!-- &nbsp; --></div>
+              <div class="uk-width-small uk-width-medium@m uk-border-circle uk-overflow-hidden uk-transition-slide-bottom-medium uk-background-contain" data-src="https://picsum.photos/id/1/300/300/" data-uk-img>
+                <img data-src="images/img-trans-blue.png" alt="" data-uk-img>
+              </div>
             </div>
           </section>
           <section class="uk-child-width-1-2@s uk-margin-remove uk-padding-remove uk-background-cover" data-uk-grid data-src="https://picsum.photos/id/3/2600/1080/" data-uk-img>
             <div class="uk-flex-stretch uk-flex-last@s uk-padding-large uk-flex uk-flex-center uk-flex-middle" data-src="images/bg-trans-black.png" data-uk-img>
-              <div class="uk-padding-large">
-                <h2 class="uk-heading-line uk-transition-slide-top-small"><span>JavaScript</span></h2>
-                <p class=" uk-transition-slide-bottom-small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="uk-padding-large uk-padding-remove-bottom">
+                <h2 class="uk-heading-line uk-transition-slide-top-medium"><span>JavaScript</span></h2>
+                <p class=" uk-transition-slide-bottom-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
             </div>
             <div class="uk-flex-stretch uk-flex-first@s uk-flex uk-flex-center uk-flex-middle uk-visible@s" data-src="images/bg-trans-red.png" data-uk-img>
-              <div class="uk-width-medium uk-height-medium uk-border-circle uk-background-cover uk-transition-slide-bottom-small" data-src="https://picsum.photos/id/3/300/300/" data-uk-img><!-- &nbsp; --></div>
+              <div class="uk-width-small uk-width-medium@m uk-border-circle uk-overflow-hidden uk-transition-slide-bottom-medium uk-background-contain" data-src="https://picsum.photos/id/3/300/300/" data-uk-img>
+                <img data-src="images/img-trans-blue.png" alt="" data-uk-img>
+              </div>
             </div>
           </section>
         </div>
@@ -107,7 +114,9 @@
           </div>
         </div>
         <div class="uk-flex-first uk-visible@s uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport data-src="images/bg-trans-orange.png" data-uk-img>
-          <div class="uk-width-medium uk-height-medium uk-border-circle uk-background-cover" data-src="https://getuikit.com/docs/images/avatar.jpg" data-uk-img><!-- &nbsp; --></div>
+          <div class="uk-width-small uk-width-medium@m uk-border-circle uk-overflow-hidden uk-background-contain" data-src="https://getuikit.com/docs/images/avatar.jpg" data-uk-img  data-uk-scrollspy="cls: uk-animation-slide-bottom-medium">
+            <img data-src="images/img-trans-orange.png" alt="" data-uk-img>
+          </div>
         </div>
       </div>
     </div>
