@@ -23,12 +23,6 @@
       <dd class="uk-flex-first uk-padding-small uk-text-large uk-text-italic uk-text-truncate" data-uk-tooltip="title: Full Stack Web & App Developer" lang="en">
         Full Stack Web & App Developer
       </dd>
-      <dd class="uk-padding-small">
-        <a href="#contact" class="uk-flex uk-flex-middle" data-uk-toggle="target: #contact">
-          <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: mail; ratio: 1.2"></span>
-          <span>Kontakt</span>
-        </a>
-      </dd>
     </dl>
   </header>
 
@@ -83,24 +77,23 @@
         <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-position-z-index" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-position-z-index" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
         <nav class="uk-container uk-position-bottom-left uk-position-z-index uk-width-1-1 uk-width-1-2@s uk-margin-large-bottom uk-flex uk-flex-right">
-          <ul class="uk-nav" data-uk-tab="media: @s" data-uk-scrollspy="cls: uk-animation-slide-bottom">
+          <ul class="uk-nav uk-margin-large-bottom" data-uk-tab data-uk-scrollspy="cls: uk-animation-slide-bottom">
             <li data-uk-slideshow-item="0"><a href="#">HTML</a></li>
             <li data-uk-slideshow-item="1"><a href="#">CSS</a></li>
             <li data-uk-slideshow-item="2"><a href="#">JavaScript</a></li>
-            <li class="uk-disabled" data-uk-slideshow-item="3"><a href="#">Item Four</a></li>
-            <li class="uk-disabled" data-uk-slideshow-item="4"><a href="#">Item Five</a></li>
+            <li class="uk-disabled" data-uk-slideshow-item="3"><a href="#">More ...</a></li>
           </ul>
         </nav>
       </div>
     </article>
   </main>
 
-  <aside id="contact" class="uk-modal-full uk-animation-slide-top" data-uk-modal>
+  <aside id="contact" class="uk-modal-full uk-animation-slide-bottom" data-uk-modal>
     <div class="uk-modal-dialog uk-background-cover" data-src="https://getuikit.com/docs/images/avatar.jpg" data-uk-img>
       <button class="uk-modal-close-full uk-close-large uk-background-secondary uk-light" type="button" data-uk-close></button>
       <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" data-uk-grid>
         <div class="uk-flex-last uk-padding-large uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport data-src="images/bg-trans-black.png" data-uk-img>
-          <div data-uk-scrollspy="cls: uk-animation-slide-top">
+          <div data-uk-scrollspy="cls: uk-animation-slide-bottom">
             <h3 class="uk-modal-title">Web Entwickler</h3>
             <dl class="uk-description-list">
               <dt class="uk-margin-small-bottom"><span class="uk-light">Kontakt</span></dt>
@@ -111,6 +104,7 @@
               <dd data-uk-tooltip="title: Mobile"><span class="uk-margin-small-right uk-icon" data-uk-icon="phone"></span><a class="uk-link-text" href="tel:+129876543">0012 - 987 65 43</a></dd>
               <dd data-uk-tooltip="title: E-Mail"><span class="uk-margin-small-right uk-icon" data-uk-icon="mail"></span><a class="uk-link-text" href="mailto:mail@domain.com">mail@domain.com</a></dd>
             </dl>
+            <p class="uk-section"><a href="#contact" class="uk-modal-close"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: close; ratio: 1.4"></span>Close</a></p>
           </div>
         </div>
         <div class="uk-flex-first uk-visible@s uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport data-src="images/bg-trans-orange.png" data-uk-img>
@@ -122,8 +116,14 @@
     </div>
   </aside>
 
-  <footer class="uk-position-fixed uk-position-bottom-right uk-padding-small" data-uk-scrollspy="cls: uk-animation-slide-bottom">
-    <p class="uk-margin-remove uk-padding-remove uk-text-center"><small>&#169; 2021 Domain Name</small></p>
+  <footer class="uk-position-fixed uk-position-bottom-right uk-width-1-1 uk-width-1-2@s uk-padding-small" data-uk-scrollspy="cls: uk-animation-slide-bottom">
+    <p class="uk-margin-remove uk-flex uk-flex-between">
+      <a href="#contact" class="uk-flex uk-flex-middle" data-uk-toggle="target: #contact">
+        <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: mail; ratio: 1.2"></span>
+        <span>Contact</span>
+      </a>
+      <small>&#169; 2021 Domain Name</small>
+    </p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
