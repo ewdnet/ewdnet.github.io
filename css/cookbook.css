@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  color: #36c;
+}
+
+a:hover,
+a:focus {
+  color: #333;
+}
+
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+html {
+  height: 100%;
+  background-color: #ccc;
+}
+
+body {
+  /* background-color: #ccc; */
+}
+
+body>* {
+  background-color: #eee;
+}
+
+body>header {
+  border-radius: .6rem .6rem 0 0;
+}
+
+body>footer {
+  border-radius: 0 0 .6rem .6rem;
+}
+
+body>header dd + dd {
+  font-style: italic;
+}
+
+body>header dd + dd::before,
+body>header dd + dd::after {
+  content: '"';
+}
+
+article>ul figure {
+  background-color: #dedede;
+}
+
+thead th {
+  font-weight: 700 !important;
+  color: #fff !important;
+  background-color: #ccc !important;
+}
+
+tbody td {
+  background-color: #ddd;
+}
+
+/* Recipies Menu */
+aside {
+  border-top: 1px solid #bbb;
+}
