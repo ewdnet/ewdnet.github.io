@@ -1,0 +1,6 @@
+# pnpm config for this repo
+# We only allow required dependency build scripts in CI.
+
+onlyBuiltDependencies:
+  - esbuild
+  - '@esbuild/*'
