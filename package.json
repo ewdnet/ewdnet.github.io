@@ -1,5 +1,14 @@
 {
-  "name": "emil-devel.github.io",
+  "name": "ewdnet.github.io",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "skeleton",
+    "prisma",
+    "drizzle",
+    "superforms",
+    "valibot"
+  ],
   "private": true,
   "version": "0.0.0",
   "packageManager": "pnpm@10.10.0",
@@ -11,21 +20,22 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "^3.2.2",
-    "@skeletonlabs/skeleton-svelte": "^1.5.3",
-    "@sveltejs/vite-plugin-svelte": "^6.2.1",
-    "@tsconfig/svelte": "^5.0.5",
-    "@types/node": "^24.9.1",
-    "shiki": "^3.13.0",
-    "svelte": "^5.41.1",
-    "svelte-check": "^4.3.3",
+    "@skeletonlabs/skeleton": "^4.11.0",
+    "@skeletonlabs/skeleton-svelte": "^4.11.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@tsconfig/svelte": "^5.0.6",
+    "@types/node": "^24.10.9",
+    "shiki": "^3.21.0",
+    "shiki-magic-move": "^1.2.1",
+    "svelte": "^5.48.3",
+    "svelte-check": "^4.3.5",
     "typescript": "~5.9.3",
-    "vite": "^7.1.11"
+    "vite": "^7.3.1"
   },
   "dependencies": {
     "@lucide/svelte": "^0.545.0",
-    "@tailwindcss/vite": "^4.1.15",
-    "tailwindcss": "^4.1.15"
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
