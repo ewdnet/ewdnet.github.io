@@ -2,12 +2,12 @@
   import { Github } from "@lucide/svelte";
   import { Carousel } from "@skeletonlabs/skeleton-svelte";
   import slides from "./slides";
-  let slidesPerPage = $state(2);
-  $effect(() => {
-    setTimeout(() => {
-      slidesPerPage = 1;
-    }, 400);
-  });
+  let slidesPerPage = $state(1);
+  // $effect(() => {
+  //   setTimeout(() => {
+  //     slidesPerPage = 1;
+  //   }, 400);
+  // });
 </script>
 
 <Carousel
