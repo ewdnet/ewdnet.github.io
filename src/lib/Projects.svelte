@@ -1,7 +1,8 @@
 <script lang="ts">
   import { FolderGitIcon } from "@lucide/svelte";
   import { fly, scale } from "svelte/transition";
-  import Slider from "./projects/Slider.svelte";
+  import Pagination from "./projects/Pagination.svelte";
+  // import Slider from "./projects/Slider.svelte";
 
   let title: boolean = false;
   let projects: boolean = false;
@@ -22,7 +23,8 @@
   {/if}
   {#if projects}
     <div in:scale={{ duration: 400 }}>
-      <Slider />
+      <Pagination />
+      <!-- <Slider /> -->
     </div>
   {/if}
 </section>
